@@ -1,0 +1,24 @@
+
+
+package ejerciciomodelarobjetos;
+
+/**
+ *
+ * 
+ */
+public class EjercicioModelarObjetos {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+
+        Alumno a = new Alumno();
+        a.setNombre("Ion");
+        
+        Libro l = new Libro();
+        l.abrir();
+        
+    }
+    
+}
