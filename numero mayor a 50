@@ -1,0 +1,37 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package mayor50;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author josue
+ */
+public class Mayor50 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner nu=new Scanner(System.in);
+      System.out.println("Ingresar un numero");
+      int n;
+       n = nu.nextInt();
+      if(n==50){
+          System.out.println("es igual a 50");
+      }else if(n<50){
+               System.out.println(" menor que  50");
+          } else {
+          System.out.println("mayor que  50");
+      }
+        
+      
+      
+    
+    
+}
+}
