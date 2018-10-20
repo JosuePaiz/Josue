@@ -1,0 +1,28 @@
+
+package ejercicio.numero.mayor;
+
+import java.util.Scanner;
+public class EjercicioNumeroMayor {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args){
+    Scanner Josue = new Scanner( System.in );
+        int n;
+        System.out.println("Introduce un número menor a 10: ");
+        //System.out.println("jhavsjadasd");
+        
+        n = Josue.nextInt();
+         if(n>10){
+             System.out.println("No se puede");
+         }else{
+        System.out.println("Tabla del numero " + n);
+        for(int i = 1; i<=10; i++){
+            int resultado = n*i;
+            System.out.println(n + " * " + i + " = " + resultado);
+        }
+      }
+    }
+}
+
