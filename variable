@@ -1,0 +1,26 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package variable;
+
+/**
+ *
+ * @author Usuario
+ */
+public class VARIABLE {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // variable byte
+        byte b1 = 10;
+    //Literal en hexadecimal
+    byte b2= 0xa;
+    System.out.println("valor bytes:" + b1);
+    System.out.println("");
+            }
+    
+}
