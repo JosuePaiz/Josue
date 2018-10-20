@@ -1,0 +1,34 @@
+
+ 
+package MENUDEPARQUEO;
+
+
+import java.util.Scanner;
+public class MENUDEPARQUEO {
+
+    
+     
+    public static void main(String[] args) {
+        Scanner parqueo = new Scanner( System.in );
+        float cuota;
+        float total;
+        System.out.println("BIENVENIDO USUARIO\n");
+        System.out.println("Por Favor Ingrese la cantidad de horas utilizadas en nuestro parqueo\n");
+        System.out.println("Teniendo en cuenta nuestras tarifas: \n");
+        System.out.println("Las Primeras dos horas a Q20.00\n");
+        System.out.println("A partir de las dos horas, a Q15.00\n");
+        cuota = parqueo.nextFloat();
+        
+         if(cuota<=0){
+             System.out.println("Valor Invalido");
+        } 
+        if(cuota>2){
+             total = (float) (Math.ceil(cuota-2)*15 + 20);
+             System.out.println("Su Total es de: Q " + total);
+         }else if(cuota<=2 ) {
+             total = 20;
+             System.out.println("El Total es de: Q " + total);
+         }
+         }
+    
+}
